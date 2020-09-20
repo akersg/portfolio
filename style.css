@@ -1,0 +1,83 @@
+.push-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.custom-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.navcolor{
+    background-color: black;
+}
+
+.header {
+    background-color: #515B3A;
+    color: white;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.containercolour{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+     
+}
+
+.container{   
+    
+    text-align: center;
+}
+
+.media p{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.bigbox{
+    padding: 10px
+}
+
+.middletext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    padding-top: 10px;   
+}
+
+#p1{
+    margin-right: 10px;
+}
+
+#p2{
+    margin-left: 10px;
+}
+
+.bigpic img{
+    width: 60%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
