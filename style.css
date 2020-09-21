@@ -1,20 +1,24 @@
-.push-right {
+.center {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
 }
 
+#sitename {
+    color: gray;
+    text-align: center;
+}
 .custom-nav {
     display: flex;
     justify-content: space-evenly;
     width: 600px;
     background-color: #333333;
-    color: #f7f7f7;
+    color: #gray;
 }
 
 .navcolorga {
     background-color: #333333;
-    color: #f7f7f7;
+    color: #gray;
 }
 .header {
     background-color: #515B3A;
@@ -43,13 +47,13 @@
 .containercolour{
     background-color: grey;
     color: white;
-    padding: 10px;
-     
+    padding: 30px;
+    
 }
 
 .container2{
     color:black;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
      
 }
@@ -107,8 +111,19 @@
 
 footer {
     background-color: #333333;
-    color: #f7f7f7;
+    color: gray;
     text-align: center;
     height: 50px;
     padding-top: 10px;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav .custom-nav{
+        display: inline-block;
+        float: none;
+        text-align: center;
+    }
+    .navbar .navbar-collapse .custom-nav {
+        text-align: center;
+    }
+    }
 }
