@@ -2,17 +2,16 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .custom-nav {
     display: flex;
     justify-content: space-between;
     width: 300px;
-
 }
 
-.navcolor{
-    background-color: black;
+.nav1 {
+    display: flex;
 }
-
 .header {
     background-color: #515B3A;
     color: white;
@@ -21,8 +20,9 @@
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+
     
 }
 
@@ -74,9 +74,16 @@
     width: 60%;
 }
 
+.contact {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 footer {
-    background-color: black;
-    color: white;
+    background-color: #333333;
+    color: #f7f7f7;
     text-align: center;
     height: 50px;
     padding-top: 10px;
