@@ -115,15 +115,5 @@ footer {
     text-align: center;
     height: 50px;
     padding-top: 10px;
-}
-@media (min-width: 768px) {
-    .navbar .navbar-nav .custom-nav{
-        display: inline-block;
-        float: none;
-        text-align: center;
-    }
-    .navbar .navbar-collapse .custom-nav {
-        text-align: center;
-    }
     
 }
