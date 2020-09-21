@@ -13,12 +13,12 @@
     justify-content: space-evenly;
     width: 600px;
     background-color: #333333;
-    color: #gray;
+    color: gray;
 }
 
 .navcolorga {
     background-color: #333333;
-    color: #gray;
+    color: gray;
 }
 .header {
     background-color: #515B3A;
@@ -125,5 +125,5 @@ footer {
     .navbar .navbar-collapse .custom-nav {
         text-align: center;
     }
-    }
+    
 }
