@@ -1,28 +1,30 @@
 .push-right {
     display: flex;
     justify-content: flex-end;
+
 }
 
 .custom-nav {
     display: flex;
-    justify-content: space-between;
-    width: 300px;
+    justify-content: space-evenly;
+    width: 600px;
+    background-color: #333333;
+    color: #f7f7f7;
 }
 
-.nav1 {
-    display: flex;
+.navcolorga {
+    background-color: #333333;
+    color: #f7f7f7;
 }
 .header {
     background-color: #515B3A;
     color: white;
 }
 
-
 .cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     
 }
 
@@ -39,15 +41,21 @@
      
 }
 
-.container{   
-    
+.container2{
+    color:black;
+    padding: 10px;
     text-align: center;
+     
+}
+
+.container{     
+    text-align: center;
+
 }
 
 .media p{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
     
 }
 
@@ -74,12 +82,22 @@
     width: 60%;
 }
 
-.contact {
+.img123 {
+    width: 300px;
+    height: 200px;
+}
 
+.row {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
+  }
+  
+.column {
+    display: flex;
+    flex: 25%;
+    justify-content: center;
+    padding: 20px;
+  }
 
 footer {
     background-color: #333333;
