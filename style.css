@@ -18,6 +18,9 @@ html {
     width: 600px;
     background-color: #333333;
     color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navcolorga {
@@ -34,6 +37,12 @@ html {
     justify-content: center;
     flex-wrap: wrap;
        
+}
+
+#akersintro p{
+    display: flex;
+    justify-content: center;
+
 }
 
 .imageshadow{
