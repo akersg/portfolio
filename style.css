@@ -141,10 +141,9 @@ footer div {
 
 @media only screen and (max-width:576px) {
 
-#contactme{
+.row{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+        
     }
 }
