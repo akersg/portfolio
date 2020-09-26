@@ -70,6 +70,13 @@ html {
     
 }
 
+.menutitles{
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+   
+}
+
 .container2{
     color:black;
     padding: 30px;
@@ -150,9 +157,27 @@ footer div {
 
 @media only screen and (max-width:576px) {
 
-.row{
-    display: flex;
+    .container{
+    display: inline;
     justify-content: center;
-        
+    
     }
+    
+    .container a{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        }
+
+    .container2 img{
+         height: 200px;
+         width: 200px;        
+        
+} 
+
+    #contactme{
+    display: inline;
+    justify-content: flex-start;
+   
+    
 }
