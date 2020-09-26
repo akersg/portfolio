@@ -157,28 +157,40 @@ footer div {
 
 @media only screen and (max-width:576px) {
 
-    .container{
+.container{
     display: inline;
     justify-content: center;
     
     }
     
-    .container a{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-        }
+.container a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    }
 
-    .container2 img{
-         height: 200px;
-         width: 200px;        
-        
-} 
+.container2 img{
+    height: 200px;
+    width: 200px;        
 
-    #contactme{
+    } 
+
+#contactme{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    }  
+
+    }
+
+.custom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    background-color: #333333;
+    color: gray;
+    position: relative;
+    top: 0;
+    width: 100%;
+    }
+
 }
