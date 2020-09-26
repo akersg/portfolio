@@ -176,8 +176,9 @@ footer div {
 } 
 
     #contactme{
-    display: inline;
-    justify-content: flex-start;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     
+    }  
 }
