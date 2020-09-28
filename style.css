@@ -52,10 +52,15 @@ html {
     text-align: center;
 }
 
+.bnw{
+    filter: grayscale(100%);
+}
+
 .imageshadowmainpic{
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+   
 }
 .reverse{
     display: flex;
@@ -193,7 +198,4 @@ footer div {
     width: 100%;
     }
 
-.bnw {
-    filter: grayscale(100%);
-    }
 }
