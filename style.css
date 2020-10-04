@@ -206,6 +206,10 @@ footer div {
 
 }
 
+#game {
+    background-image: url('o&x.jpg');
+  }
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
