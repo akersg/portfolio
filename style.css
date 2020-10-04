@@ -198,6 +198,7 @@ footer div {
     }
 
 .custom-nav {
+    display: flex;
     justify-content: space-evenly;
     width: 600px;
     background-color: #333333;
