@@ -29,7 +29,7 @@
                   <img  src="./images/GAblackfavicon.ico" href="#logo">
               </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#theentertainment">The Entertainment</a>
+                    <a class="nav-link" href="#game">The Game</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contactme">Contact Me</a>
@@ -39,23 +39,23 @@
     </nav>
     <header class="jumbotron jumbotron-fluid header">
         <div class="container">
-            <h1 class="display-1" id="aboutme">Gareth Akers</h1>
+            <h1 class="display-1">Gareth Akers</h1>
             <h2 class="display-4">My Portfolio</h2><br>
-            <h3 class="lead">IT Scheme Executive <br> Admiral Group PLC</h3>
+            <h3 class="lead" id="aboutme">IT Scheme Executive <br> Admiral Group PLC</h3>
         </div>
     </header>
     <section class="container cards">
         <article>
-            <img class="imageshadowmainpic bnw" src="./images/akers2.jpg" class="card-img-top" alt="akersg">
+            <img class="imageshadowmainpic" src="./images/akers2.jpg" class="card-img-top" alt="akersg">
             <div id="akersintro">
               <br>
               <p>I am a man outnumbered by his wife and two beautiful daughters in his own home, that has decided to enter the world of technology.....from home!</p>
-              <p>This will be a portfolio of the skills and techniques I develop on my journey.</p>
+              <p id="thecourse">This will be a portfolio of the skills and techniques I develop on my journey.</p>
             </div>
         </article>
     </section>
           
-    <section class="containercolour" id="thecourse">
+    <section class="containercolour">
         <h4 class="menutitles">The Course</h4>
         <section class="media container">
         <a href="https://github.com/" target="_blank"><img class="imageshadow" src="./images/github.jpg" class="align-self-start mr-3 img123" alt="github"></a>
@@ -83,12 +83,33 @@
   </section>
     </section>
 
-    <section class="container2" id="theentertainment"> 
-        <h4 class="menutitles">The Entertainment</h4> 
-        <img class="imageshadowmainpic" id="Entspic" src="images/coming soon.gif" alt="twitter" style="width:20%">
-        <div class="media-body">
-        </div>
-    </section>
+    <section class="container" id="game">
+      <h1 class = "title"> Noughts & Crosses</h1>
+  <div class="grid" id="grid">
+      <div class="cell" id="0"></div>
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+    </div>
+    
+  <div class="restart">
+      <button class="restart" type ="button" onClick="window.location.reload();">DRAW?</button><br>
+  </div>
+  <div class="rules"><br>
+      <h5 class = "rulestitle"> RULES </h5>
+      <p> PLAYER ONE = X <br>
+          PLAYER TWO = O <br>
+          PLAYER ONE AND PLAYER TWO TAKE TURNS ADDING THEIR SYMBOL (X or O)<br>
+          FIRST PLAYER TO GET 3 OF THEIR SYMBOLS IN A ROW (UP, DOWN, ACROSS OR DIAGONALLY) WINS<br>
+          IF ALL 9 SQUARES ARE FILLED, AND NO ROW IS FILLED BY THE SAME SYMBOL - ITS A DRAW</p>
+  </div>
+</section> 
+  <script src="app.js"></script>
   
     
     <div class="row" id="contactme">
