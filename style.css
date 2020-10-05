@@ -86,8 +86,8 @@ html {
 .grid {
     display: flex;                      
     flex-wrap: wrap;                   
-    
-    
+    border: 2px solid black;
+     
 }
 
 .cell {
