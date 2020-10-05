@@ -93,6 +93,7 @@ html {
 .cell {
     flex: 0 0 33%;                       
     height: 50px;
+    width: 50px;
     margin-bottom: 5px;
     padding-top: 10px;
     background-color: #515B3A;
