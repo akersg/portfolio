@@ -135,11 +135,6 @@ html {
     height: 200px;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-  }
-  
 .column {
     display: flex;
     flex: 25%;
