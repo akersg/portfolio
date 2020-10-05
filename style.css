@@ -188,8 +188,8 @@ footer div {
 
 #contactme{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+  
    
     }
 
