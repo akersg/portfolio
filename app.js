@@ -21,6 +21,22 @@ function restart(){
     window.location.reload();
 }
 
+function checkWin(winningCombos, movesArray) {
+  for (let i = 0; i < winningCombos.length; i++) {
+    let count = 0
+    for (let j = 0; j < winningCombos[i].length; j++) { 
+      if (movesArray.includes(winningCombos[i][j])){
+        count++
+        if(count === 3){
+        alert("WINNER!");
+        return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
 cells.forEach (cell => {
     cell.addEventListener("click", (event) => {
         if ((event.target.innerHTML === ("")) && (clicks % 2 == 0)) {
@@ -33,31 +49,10 @@ cells.forEach (cell => {
         console.log(xMove);
         console.log(oMove);
         
-      for (let i = 0; i < winningCombos.length; i++) {
-        let count = 0
-        for (let j = 0; j < winningCombos[i].length; j++) { 
-          if (xMove.includes(winningCombos[i][j])){
-            count++
-            if(count === 3){
-            alert("X WINS!");
-            window.location.reload();
-            }
-          }
-        }
-      }
-      for (let i = 0; i < winningCombos.length; i++) {
-        let count = 0
-        for (let j = 0; j < winningCombos[i].length; j++) { 
-          if (oMove.includes(winningCombos[i][j])){
-            count++
-            if(count === 3){
-            alert("O WINS!");
-            window.location.reload();
-            }
-          }
-        }
-      }
-    });
+      const xHasWon = checkWin(winningCombos, xMove)
+      const oHasWon = checkWin(winningCombos, oMove)
+
+      });
 })
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
